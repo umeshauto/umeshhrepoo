@@ -39,6 +39,8 @@ public class BaseClass {
 	public void  bcconfig() throws Throwable {
         //String BROWSER = System.getProperty("browser");  // read browser valvue from commandline 
 		//String BROWSER = futil.getDataFromProperty("browser"); //read browser value from Property file
+		String BROWSER= System.getProperty("browser");
+			String url= System.getProperty("url");
 		//String URL=futil.getDataFromProperty("url");
 		
 		//run time polymorphisam
