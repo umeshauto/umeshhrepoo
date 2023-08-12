@@ -38,8 +38,8 @@ public class BaseClass {
 	@BeforeClass(groups = {"smoke","regression"})
 	public void  bcconfig() throws Throwable {
         //String BROWSER = System.getProperty("browser");  // read browser valvue from commandline 
-		String BROWSER = futil.getDataFromProperty("browser"); //read browser value from Property file
-		String URL=futil.getDataFromProperty("url");
+		//String BROWSER = futil.getDataFromProperty("browser"); //read browser value from Property file
+		//String URL=futil.getDataFromProperty("url");
 		
 		//run time polymorphisam
 		if(BROWSER.equalsIgnoreCase("chrome")) {
